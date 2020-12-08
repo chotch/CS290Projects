@@ -1,0 +1,182 @@
+/*
+ * You should write your CSS in this file.  Don't forget to add your name and
+ * @oregonstate.edu email address below.
+ *
+ * name: Christien Hotchkiss
+ * email: hotchkch@oregonstate.edu
+ */
+
+.result-title{
+	color: orange;
+	text-decoration: none;
+}
+
+.result-price{
+	padding: 2px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	background: #DCDCDC;
+}
+
+#sell-something-button {
+	color: white;
+	display: block;
+	padding: 10px 10px;
+	background: orange;
+	border-radius: 50%;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	border: none;
+	font-size: 52px;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+}
+
+#sell-something-button:hover{
+	cursor: pointer;
+	font-size: 65px;			
+}
+
+a:hover{
+	text-decoration: underline;
+	color: orange;
+}
+
+.result-info-container{
+	max-width: 320px;
+	min-height: 35px;
+}
+
+.filter-input-container input{
+	border: 1px solid grey;
+	border-radius: 8%;
+
+}
+
+
+#filter-city .filter-input-container{
+	border: 1px solid grey;
+	border-radius: 8%;
+}
+
+
+.result{
+	display: inline-block;	
+	margin: 15px;
+	border: 1px solid grey;
+	//padding: 8px 8px;
+	//width: 350px;
+	//height: 350px;
+}
+
+.result-contents{
+	//next line originally not there
+	//padding: 50px 50px;
+//	width: 350px;
+	//height: 350px;
+	margin: 20px 20px;	
+	text-align: left;
+}
+
+
+.result-image-container{
+	height: auto;
+	max-height:335px;
+	min-height:335px;
+	width: 345px;
+//	overflow: hidden;
+}
+
+#filter-min-price{
+	display: inline-block;
+	//font-size: 20px;
+	width: 73px;
+}
+
+#filter-max-price{
+	display: inline-block;
+	width: 73px;
+}
+
+.result-image-container img{
+	height: auto;
+	width: 345px;	
+	max-height: 335px;
+
+}
+
+header{
+	background: black;
+	margin: none;
+	
+}
+
+.header-image-container{
+	display: inline-block;
+	width: 170px;
+	height: 60px;	
+
+}
+
+aside{
+	background: #E8E8E8;
+	width: 275px;
+	height: 525px;
+	margin: 5px 5px 500px 0px;
+	font-family: "Roboto";
+	display: inline-block;
+	font-weight: 500;
+	float: left;
+}
+
+aside h2{
+	font-size: 30px;
+	padding: 10px 15px 0px 15px;
+}
+
+
+
+.filter-input-container{
+	font-size: 20px;
+	padding: 8px 20px;
+}
+.site-title a{
+	color: white;
+	text-decoration: none;
+	position: relative;
+	top: 25px;
+}
+
+.site-title {
+	font-size: 90px;
+	display: inline-block;
+	position: relative;
+	bottom: 25px;
+	font-family: "Roboto Slab";
+}
+
+.header-image-container img{
+	position: relative;
+	top: 25px;
+}
+
+.site-title:hover{
+	color: white;
+	text-decoration: none;
+}
+
+#filter-update-button{
+	color: white;
+	padding: 15px 80px;
+	background: black;
+	font-size: 24px;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin: 12px 15px;
+}
+
+#filter-update-button:hover{
+	color: black;
+	background: #F4A460;
+	border: 1px solid black;
+}
